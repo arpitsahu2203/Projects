@@ -1,0 +1,57 @@
+.Find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:400px;
+    border-style: solid;
+}
+
+.FindImageDiv{
+    display: flex;
+    width:100vw;
+    height:400px;
+    position: absolute;
+    left:0;
+}
+
+.FindImage{
+    width:100%;
+    object-fit:cover;
+}
+
+.FindText{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.FindH1{
+    font-size:40px;
+    font-weight: 500;
+    margin:0;
+}
+
+.FindP1{
+    margin:0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.FindButton{
+    margin-top:50px;
+    padding: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 30px;
+    background-color: olivedrab;
+    border:none;
+    font-size: 15px;
+}
+
+.FindButton:hover{
+    background-color: rgb(72, 97, 23);
+    transition: 0.25s;
+}
+
