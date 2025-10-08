@@ -1,0 +1,88 @@
+.Reviews{
+    Padding:80px;
+    padding-top: 30px;
+    background-color: #191b1e;
+}
+
+.Quote{
+    width:25px;
+}
+
+.Rev{
+    display: flex;
+}
+
+.Rleft{
+    width:900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.Rright{
+    width:900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.RevImage{
+    width:60px;
+    border-radius: 50%;
+}
+
+.custSec{
+    display: flex;
+    flex-direction: row;
+}
+
+.RleftDown{
+    background-color: #2c320d;
+    padding:40px;
+    border-radius: 20px;
+    margin-top:60px;
+    margin-bottom: 0;
+}
+
+.custName{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left:5px;
+}
+
+.RLT1{
+    font-size: 40px;
+    font-weight: 50;
+    margin-top:0px;
+    margin-bottom: 0;
+}
+
+.RLT2{
+    font-weight: 1;
+}
+
+.custRev{
+    font-size: 23px;
+    font-weight:2;
+}
+
+.RrightTop{
+    background-color: #2c320d;
+    padding:40px;
+    border-radius: 20px;
+    margin-top:0px;
+}
+
+.RrightDown{
+    background-color: #2c320d;
+    padding:40px;
+    border-radius: 20px;
+    margin-top:40px;
+}
+
+.RleftTop,.RleftDown,.RrightTop,.RrightDown{
+    width: 100%;
+}

@@ -1,0 +1,76 @@
+.Trending{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+.TrendingH{
+    padding: 50px;
+    font-size: 20px;
+    color: #D6D2CD;
+}
+
+.Plants{
+    display:grid;
+    grid-template-columns: 369px 369px 369px;
+    column-gap: 25px;
+}
+
+.TempTren{
+    display: flex;
+    flex-direction: column;
+}
+
+.TextTren{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flower{
+    width: 369px;
+    height: 350px;
+    object-fit:cover;
+}
+
+.star-rating .star {
+  font-size: 15px;
+  color: #D6D2CD;
+  margin-left: -6px;
+  margin-bottom: 4px; /* Example color for filled stars */
+}
+
+/* Example for un-filled stars */
+.star-rating .star:nth-child(4),
+.star-rating .star:nth-child(5) {
+  color: #D6D2CD; 
+}
+
+.Stars{
+    margin-left: 4px;
+}
+.Name{
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #D6D2CD;
+}
+
+.Type{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #d6d2cdaf;
+    font-weight:lighter;
+}
+
+.Price{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #D6D2CD;
+}
