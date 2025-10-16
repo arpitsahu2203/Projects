@@ -1,0 +1,137 @@
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right:150px;
+    margin-top:80px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+}
+
+.show{
+    padding-left:30px;
+    font-size: 17px;
+}
+
+
+.sort{
+    height:40px;
+    font-size: 17px;
+    color:rgb(176, 170, 159);
+    background-color: transparent;
+    border-color: transparent;
+    margin-right:30px;
+}
+
+.Shop{
+    margin-top: 80px;
+    left:0;
+    width: 100%;
+    height:400px;
+}
+
+.list{
+    margin-top: 50px;
+}
+
+.Background2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    width: 100%;
+    left: 0;    
+}
+
+
+.Image2{
+    width: 100%;
+    height:400px;
+    object-fit:cover;
+    
+}
+
+
+.B2Text{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    top:75px;
+    font-weight: bold;
+}
+
+.Trending{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+
+.Plants{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 30px;
+}
+
+.TextTren{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flower{
+    width: 369px;
+    height: 350px;
+    object-fit:cover;
+}
+
+.star-rating .star {
+  font-size: 15px;
+  color: #D6D2CD;
+  margin-left: -6px;
+  margin-bottom: 4px; /* Example color for filled stars */
+}
+
+/* Example for un-filled stars */
+.star-rating .star:nth-child(4),
+.star-rating .star:nth-child(5) {
+  color: #D6D2CD; 
+}
+
+.Stars{
+    margin-left: 4px;
+}
+.Name{
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #D6D2CD;
+}
+
+.Type{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #d6d2cdaf;
+    font-weight:lighter;
+}
+
+.Price{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #D6D2CD;
+}
