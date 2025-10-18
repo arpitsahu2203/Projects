@@ -6,6 +6,11 @@
 body{
     background-color:#191b1e;
 }
+
+.top{
+    height:400px;
+    width:100vw;
+}
 .header{
     display: flex;
     flex-direction: row;
@@ -15,7 +20,6 @@ body{
     position:absolute;
     width:100vw;
     left:0px;
-    position: absolute;
 }
 
 
@@ -52,7 +56,7 @@ body{
 }
 
 .Background1{
-    position:absolute;
+    position:relative;
 }
 
 
@@ -78,7 +82,6 @@ body{
     padding: 0;
     z-index: 2;
     object-fit: cover;
-    position:relative;
 }
 
 .B1Text{

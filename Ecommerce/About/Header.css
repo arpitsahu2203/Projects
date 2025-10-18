@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 *{
     font-family:"Instruments Sans",sans-serif;
     color: #D6D2CD;
@@ -8,7 +14,7 @@ body{
 }
 
 .top{
-    height:400px;
+    height:565px;
     width:100vw;
 }
 .header{
@@ -20,6 +26,8 @@ body{
     position:absolute;
     width:100vw;
     left:0px;
+    position: absolute;
+    z-index: 5;
 }
 
 
@@ -56,7 +64,7 @@ body{
 }
 
 .Background1{
-    position:relative;
+    position:absolute;
 }
 
 
@@ -77,23 +85,29 @@ body{
 
 .image1{
     width:100vw;
-    height: 775px;
+    height:565px;
     margin: 0;
     padding: 0;
-    z-index: 2;
     object-fit: cover;
+    top: 0;
+    opacity: 20px;
 }
 
 .B1Text{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 275px;
+    top: 175px;
     align-items: center;
     justify-items: center;
     text-align: center;
     left: 400px;
     right:400px;
+    font-weight:40px ;
+}
+
+.text{
+    max-height:500px ;
 }
 
 .Welcome{
@@ -105,6 +119,8 @@ body{
 .Discover1,.Discover2{
     color: white;
     font-size: 70px;
+    margin-top:0px;
+    margin-bottom: 0;
 }
 
 .Shop1{

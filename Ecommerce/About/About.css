@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.Aboutback{
+    background-color: #2c320d;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position:relative;
+    width: 100vw;
+}
+
+.About{
+    display: flex;
+    justify-content:center;
+}
+
+.Atext{
+    margin-left: 100px;
+    width:600px;
+    height: 597px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.potted{
+    height: 600px;
+    object-fit: fill;
+}
+
+.Quote1{
+    margin-top:25px;
+    margin-bottom: 0;
+}
+
+.Quote2{
+    margin-top: 5px;
+}
+
+.Your{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.abo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:#d6d2cdab;
+    border-width: 2px;
+    padding-bottom: 30px;
+}
+
+.ab{
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
