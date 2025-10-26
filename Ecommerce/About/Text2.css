@@ -4,57 +4,62 @@
     margin-top: 20px;
     color:rgba(255, 246, 204, 0.879);
     margin-bottom: 5px;
-    border-bottom: 1px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: grey;
+    margin-bottom: 100px;
 }
 
-
-.Secure,.Free,.Care,.Service{
+.Heading{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    margin-top: 120px;
 }
 
-.heart{
-    display: flex;
-    background-color: #3a4211;
-    border-radius: 50px;
-    margin-top: 10px;
-}
-
-.Text2H{
-    font-size: 20px;
-    font-weight: bold;
+.head{
+    margin-top: 0;
     margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 100;
 }
 
-.Text2t{
-    font-size: 18px;
-    margin-top: 15px;
+.Grid{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
 }
 
-.Box{
+.object{
     display: flex;
-    background-color: #3a4211;
-    border-radius: 100px;
-    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.Truck{
+.objText{
+    margin-left: 20px;
     display: flex;
-    background-color: #3a4211;
-    border-radius: 100px;
-    margin-top: 10px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
-.Card{
-    display: flex;
-    background-color: #3a4211;
-    border-radius: 100px;
-    margin-top: 10px;
+.objPara{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.objSub{
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.objImg{
+    height:60px;
+    width: 60px;
+    background-color: #2c320d;
+    padding: 10px;
+    border-radius: 50%;
 }
