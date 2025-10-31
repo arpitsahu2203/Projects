@@ -1,6 +1,13 @@
 .ContDet{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Details{
+    width: 1fr;
 }
 
 .Phone,.Email,.Address{
@@ -10,6 +17,7 @@
 .Form{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 .form{
