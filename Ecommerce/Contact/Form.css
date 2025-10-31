@@ -1,0 +1,18 @@
+.ContDet{
+    display: flex;
+    flex-direction: row;
+}
+
+.Phone,.Email,.Address{
+    display: flex;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
