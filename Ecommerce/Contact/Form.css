@@ -1,13 +1,18 @@
 .ContDet{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 .Details{
+    display: flex;
+    flex-direction: column;
     width: 1fr;
+    justify-content:flex-start;
+    margin-right: 120px;
+    
 }
 
 .Phone,.Email,.Address{
@@ -23,4 +28,63 @@
 .form{
     display: flex;
     flex-direction: column;
+}
+
+.Input{
+    background: none;
+    border-style:solid;
+    height:40px;
+    width:475px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.532);
+}
+
+.Info{
+    margin-top: 35px;
+}
+
+.Submit{
+    margin-top: 25px;
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #546e1f;
+    color: white;
+    font-weight: 100;
+}
+
+.PhoneImg{
+    background-color: #546e1f;
+    height: 70px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.EmailImg{
+   background-color: #546e1f;
+    height: 70px;
+    padding: 15px;
+    border-radius: 50%; 
+}
+
+.LocationImg{
+    background-color: #546e1f;
+    height: 70px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.Phone,.Email,.Address{
+    align-items: center;
+}
+
+.EmailDet,.Contact,.AddressDet{
+    margin-left: 20px;
+}
+
+.Message{
+    font-size: 40px;
+    font-weight:500;
 }
