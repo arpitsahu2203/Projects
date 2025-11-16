@@ -1,15 +1,18 @@
 .Text2{
+    position: relative;
+    z-index: 4;
     margin-left:150px;
     margin-right: 150px;
     margin-top: 20px;
+    margin-bottom: 0;
     color:rgba(255, 246, 204, 0.879);
-    margin-bottom: 5px;
     border-bottom: 1px;
     border-style: solid;
     border-top: none;
     border-left: none;
     border-right: none;
     border-color: grey;
+    background-color: #191b1e;
 }
 
 

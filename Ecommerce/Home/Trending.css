@@ -5,12 +5,16 @@
     align-items: center;
     margin-left:150px;
     margin-right: 150px;
+    position: relative;
+    z-index: 5;
+    background-color: #191b1e;
 }
 
 .TrendingH{
     padding: 50px;
     font-size: 20px;
     color: #D6D2CD;
+    margin-top: 0;
 }
 
 .Plants{

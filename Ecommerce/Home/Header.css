@@ -7,6 +7,19 @@ body{
     background-color:#191b1e;
 }
 
+body {
+  /* For Safari and Chrome */
+  -webkit-font-smoothing: antialiased;
+  
+  /* For Firefox */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.head{
+    position: relative;
+    z-index: 1;
+}
+
 .top{
     height:400px;
     width:100vw;
@@ -88,6 +101,7 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
+    z-index:1;
     top: 275px;
     align-items: center;
     justify-items: center;
