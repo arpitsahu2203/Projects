@@ -14,8 +14,9 @@ let t1=gsap.timeline(gsap.from(".Welcome ,.Discover1 ,.Discover1",{
 }),
 
 gsap.from(".Shop1",{
-    y:500,
+    y:150,
     duration:3.5,
+    opacity:0
 }))
 
 gsap.from(".Text2 .Property",{
