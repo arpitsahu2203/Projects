@@ -28,7 +28,8 @@ gsap.from(".Text2 .Property",{
         trigger:".Text2 .Property",
         scroller:"body",
         markers:true,
-        start:"top 60%"
+        start:"top 80%",
+        end:"top 30%"
     }
 })
 
@@ -41,7 +42,8 @@ gsap.from(".TrendingH",{
         trigger:".TrendingH",
         scroller:"body",
         markers:true,
-        start:"top 60%"
+        start:"top 80%",
+        end:"top 30%"
     }
 })
 
@@ -54,8 +56,33 @@ gsap.from(".Plants", {
         trigger:".Plants",
         scroller:"body",
         markers:true,
-        start:"top 60%"
+        start:"top 80%",
+        end:"top 30%"
+
     }
 });
+
+gsap.from(".B2Text",{
+    opacity:0,
+    y:-100,
+    duration:2,
+    stagger:.95,
+    color:"#FFFFFF",
+    yoyo:true,
+    repeat:0,
+
+    scrollTrigger:{
+        trigger:".B2Text",
+        markers:true,
+        scroller:"body",
+        start:"top 60%",
+        end:"top 30%"
+    }
+})
+
+gsap.from(".Shop2B",{
+    opacity:0,
+    duration:3,
+})
 
 
