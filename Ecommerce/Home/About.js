@@ -176,7 +176,6 @@ gsap.from(".OText",{
 
     scrollTrigger:{
         trigger:".Outro",
-        markers:true,
         start:"top 70%",
         scroller:"body",
         end:"top 100%"
