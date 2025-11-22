@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
-gsap.to(".header >.right > a",{
-    y:-50,
-    duration:5,
+gsap.from(".header >.right ,.custom-logo",{
+    y:-80,
+    duration:2,
     delay:1,
     stagger:0.5
 })
@@ -22,13 +22,12 @@ gsap.from(".Shop1",{
 gsap.from(".Text2 .Property",{
     opacity:0,
     y:-50,
-    duration:2,
-    stagger:.5,
-    delay:.5,
+    duration:1,
+    stagger:.3,
+    delay:.3,
     scrollTrigger:{
         trigger:".Text2 .Property",
         scroller:"body",
-        markers:true,
         start:"top 80%",
         end:"top 30%"
     }
@@ -42,7 +41,6 @@ gsap.from(".TrendingH",{
     scrollTrigger:{
         trigger:".TrendingH",
         scroller:"body",
-        markers:true,
         start:"top 80%",
         end:"top 30%"
     }
@@ -56,7 +54,6 @@ gsap.from(".Plants", {
     scrollTrigger:{
         trigger:".Plants",
         scroller:"body",
-        markers:true,
         start:"top 80%",
         end:"top 30%"
 
@@ -74,7 +71,6 @@ gsap.from(".B2Text",{
 
     scrollTrigger:{
         trigger:".B2Text",
-        markers:true,
         scroller:"body",
         start:"top 60%",
         end:"top 30%"
@@ -85,5 +81,109 @@ gsap.from(".Shop2B",{
     opacity:0,
     duration:3,
 })
+
+const t2=gsap.timeline({
+    scrollTrigger:{
+        trigger:".About",
+        scrub:3,
+        start:"top 10%",
+        end:"+=500%",
+        pin:true,
+        scroller:"body"
+    }
+})
+
+t2.from(".Aimage",{
+    x:-200,
+    opacity:0,
+    duration:.75
+})
+
+t2.from(".AboutH1 .Your",{
+    x:-100,
+    opacity:0,
+    stagger:0.5,
+    duration:.75
+})
+
+t2.from(".abo .ab",{
+    x:-100,
+    opacity:0,
+    stagger:0.5,
+    duration:.75
+})
+
+t2.from(".Adata .Cust",{
+    x:-100,
+    opacity:0,
+    stagger:0.5,
+    duration:.75
+})
+
+const t3=gsap.timeline({
+    scrollTrigger:{
+        trigger:".Reviews",
+        scrub:3,
+        start:"top 5%",
+        end:"+=300%",
+        pin:true,
+        scroller:"body"
+    }
+})
+
+t3.from(".RleftTop",{
+    x:-200,
+    opacity:0,
+})
+
+t3.from(".RrightTop",{
+    x:100,
+    opacity:0,
+    duration:1,
+    stagger:0.5
+})
+
+t3.from(".RleftDown",{
+    x:-100,
+    opacity:0,
+    stagger:0.5,
+    duration:.75
+})
+
+t3.from(".RrightDown",{
+    x:100,
+    opacity:0,
+    stagger:0.5,
+    duration:.75
+})
+
+gsap.from(".FindText",{
+    y:-100,
+    duration:3,
+    opacity:0,
+
+    scrollTrigger:{
+        trigger:".Find",
+        start:"top 50%",
+        scroller:"body",
+    }
+})
+
+gsap.from(".OText",{
+    y:300,
+    opacity:0,
+    duration:2,
+
+    scrollTrigger:{
+        trigger:".Outro",
+        markers:true,
+        start:"top 70%",
+        scroller:"body",
+        end:"top 100%"
+    }
+})
+
+
+
 
 
